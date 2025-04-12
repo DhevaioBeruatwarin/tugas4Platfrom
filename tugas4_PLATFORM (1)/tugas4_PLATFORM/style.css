@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    
+}
+.navigasi{
+    width: 100%;
+}
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+.navigasi li{
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: brown;
+    color: white;
+  }
+.sampul img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-left: 40%;
+    border: solid white 2px;
+    margin-top: 10px;
+}
+.sampul h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 37%;
+    color: white;
+    text-shadow: 1px 2px 5px black;}
+    
+.sampul .nim {
+    margin-left: 43% ;
+}
+.sampul {
+    border: solid 3px white;
+    width: 100%;
+    height: 100%;
+    background-image: url(backgroundSampul.jpg);
+}
+.buatFormInput {
+    border: solid 2px white;
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url(backgroundGIF.gif);
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 97%;
+    height: 550px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-align: justify;
+    background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+.wrapper {
+    border: solid 1px;
+    width: 25%;
+    margin-left: 36%;
+    margin-top: 7%;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.wrapper h2 {
+    text-align: center;
+}
+.wrapper button {
+    text-align: center;
+    margin-left: 24%;
+    width: 200px;
+}
+.wrapper input, select{
+    width: 78%;
+    padding: 8px;
+    margin-left: 9%;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.pilihanContainer {
+    font-weight: bold;
+    background-color: black;
+}
+
+
